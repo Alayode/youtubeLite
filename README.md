@@ -1,13 +1,9 @@
-JukeTube
-========
+YouTube Lite
+============
 
-A YouTube powered jukebox built with AngularJS.
-
-[![JukeTube screenshot](https://raw.github.com/jgthms/juketube/master/juketube.png)](http://jgthms.com/juketube/)
+A YouTube powered music and video playlist built with AngularJS.
 
 ## Demo
-
-[jgthms.com/juketube/](http://jgthms.com/juketube/)
 
 ## Purpose
 
@@ -30,7 +26,7 @@ Several problems arise from this process:
 
 ## Features
 
-JukeTube is an attempt to simplify this scenario.
+ is an attempt to simplify this scenario.
 
 * Single page app
 * Ajax search
