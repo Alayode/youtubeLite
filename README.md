@@ -1,6 +1,8 @@
 YouTube Lite
 ============
 
+changed color to reflect new design
+
 A YouTube powered music and video playlist built with AngularJS.
 
 ## Demo
