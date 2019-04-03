@@ -1,4 +1,4 @@
-var app = angular.module('YouTubeLite', []);
+var app = angular.module('JukeTubeApp', []);
 
 // Run
 
@@ -207,14 +207,14 @@ app.controller('VideosController', function ($scope, $http, $log, VideosService)
       $log.info('Queued id:' + id + ' and title:' + title);
     };
 
-    $scope.delete = function (list, id) {
-      VideosService.deleteVideo(list, id);
+    $scope.delete = function (id, title) {
+      VideosService.deleteVideo($scope.upcoming, id);
     };
 
     $scope.search = function () {
       $http.get('https://www.googleapis.com/youtube/v3/search', {
         params: {
-          key: 'AIzaSyBn9kMcA9sbyHd-JAxh-e-KMk_sbVNjO58',
+          key: 'AIzaSyAugA48RPUuVV_4Wdr4yZN-4XEJcjtGDi4',
           type: 'video',
           maxResults: '8',
           part: 'id,snippet',

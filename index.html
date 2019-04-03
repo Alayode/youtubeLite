@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"> 
     <title>Youtube Lite</title>
-    <meta name="author" content="Chris Kayoude Samuel">
+    <meta name="author" content="Chris Kayode Samuel">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css" type="text/css">
@@ -36,13 +36,13 @@
       <p id="current">{{ youtube.videoTitle }}</p>
       <ol id="upcoming" data-ng-show="playlist">
         <li data-ng-repeat="video in upcoming">
-          <p class="item-delete" data-ng-click="delete('upcoming', video.id)">delete</p>
+          <p class="item-delete" data-ng-click="delete(video.id, video.title)">delete</p>
           <p class="item-title" data-ng-click="launch(video.id, video.title)">{{video.title}}</p>
         </li>
       </ol>
       <ol id="history" data-ng-hide="playlist">
         <li data-ng-repeat="video in history">
-          <p class="item-delete" data-ng-click="delete('history', video.id)">delete</p>
+          <p class="item-delete" data-ng-click="delete(video.id, video.id)">delete</p>
           <p class="item-title" data-ng-click="queue(video.id, video.title)">{{video.title}}</p>
         </li>
       </ol>
