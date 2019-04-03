@@ -15,7 +15,7 @@ a{ cursor: pointer;}
 body, input{ font: 20px/1 'Montserrat', Arial, sans-serif;}
 h1 strong, #playlist, .video-title{ font-family: 'Montserrat', Arial, sans-serif; font-weight: bold; }
 
-header{ background: #000; color: white; height: 40px; padding: 20px 0;}
+header{ background: #000; color: white; height: 65px; padding: 20px 0;}
 h1{ float: left; line-height: 40px; text-align: center; width: 160px;}
 #search{ float: left; height: 40px; position: relative; width: 880px;}
 #query{ background: #0000; border: none; border-radius: 20px; color: white; float: left; height: 30px; line-height: 30px; padding: 5px 20px; width: 840px;}
